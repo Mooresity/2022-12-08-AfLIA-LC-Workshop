@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "African Library and Information Associations and Institutions (AfLIA) supported by Deaprtement of Library & Information Science, University of the Western Cape, South Africa"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Online via Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Online via Zoom. <a href="https://forms.gle/sBmAWiKomKN3UKcv9">Click here to register for the Workshop</a>. The instructors will provide you with the information you will need to connect to this workshop after registration"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gh"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -194,8 +194,7 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibility:</strong>
 {% if online == "false" %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
-  </ul>
+  We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.  
 </p>
 {% else %}
   We are dedicated to providing a positive and accessible learning environment for all. Please
